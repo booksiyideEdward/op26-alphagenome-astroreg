@@ -1,0 +1,34 @@
+audit,split,n_overlap_pairs,n_pairs,fraction_overlap,n_overlap_genes,n_genes
+same_source_study_Gasperini2019,all,161,161,1.0,121,121
+same_source_study_Gasperini2019,development,128,128,1.0,97,97
+same_source_study_Gasperini2019,confirmation,33,33,1.0,24,24
+Koo published AlphaGenome exact gene+hg38 enhancer,all,111,161,0.6894409937888198,78,121
+Koo published AlphaGenome exact gene+hg38 enhancer,development,88,128,0.6875,61,97
+Koo published AlphaGenome exact gene+hg38 enhancer,confirmation,23,33,0.696969696969697,17,24
+Koo high-confidence metadata exact gene+hg19 candidate enhancer,all,136,161,0.84472049689441,96,121
+Koo high-confidence metadata exact gene+hg19 candidate enhancer,development,105,128,0.8203125,74,97
+Koo high-confidence metadata exact gene+hg19 candidate enhancer,confirmation,31,33,0.9393939393939394,22,24
+ENCODE-rE2G Gasperini training gene present,all,109,161,0.6770186335403726,78,121
+ENCODE-rE2G Gasperini training gene present,development,81,128,0.6328125,58,97
+ENCODE-rE2G Gasperini training gene present,confirmation,28,33,0.8484848484848485,20,24
+ENCODE-rE2G Gasperini training same-gene hg38 interval overlap,all,71,161,0.4409937888198758,54,121
+ENCODE-rE2G Gasperini training same-gene hg38 interval overlap,development,49,128,0.3828125,36,97
+ENCODE-rE2G Gasperini training same-gene hg38 interval overlap,confirmation,22,33,0.6666666666666666,18,24
+ENCODE-rE2G overlap marked Regulated,all,68,161,0.422360248447205,51,121
+ENCODE-rE2G overlap marked Regulated,development,48,128,0.375,35,97
+ENCODE-rE2G overlap marked Regulated,confirmation,20,33,0.6060606060606061,16,24
+ENCODE-rE2G matched-negative same-gene hg38 interval overlap,all,23,161,0.14285714285714285,20,121
+ENCODE-rE2G matched-negative same-gene hg38 interval overlap,development,21,128,0.1640625,18,97
+ENCODE-rE2G matched-negative same-gene hg38 interval overlap,confirmation,2,33,0.06060606060606061,2,24
+ENCODE-rE2G matched-negative overlap marked non-Regulated,all,18,161,0.11180124223602485,16,121
+ENCODE-rE2G matched-negative overlap marked non-Regulated,development,17,128,0.1328125,15,97
+ENCODE-rE2G matched-negative overlap marked non-Regulated,confirmation,1,33,0.030303030303030304,1,24
+ENCODE-rE2G matched-negative overlap marked Regulated,all,5,161,0.031055900621118012,4,121
+ENCODE-rE2G matched-negative overlap marked Regulated,development,4,128,0.03125,3,97
+ENCODE-rE2G matched-negative overlap marked Regulated,confirmation,1,33,0.030303030303030304,1,24
+ENCODE-rE2G both positive and matched-negative regions overlap,all,14,161,0.08695652173913043,11,121
+ENCODE-rE2G both positive and matched-negative regions overlap,development,12,128,0.09375,9,97
+ENCODE-rE2G both positive and matched-negative regions overlap,confirmation,2,33,0.06060606060606061,2,24
+ENCODE-rE2G strict harmonized regulated-positive/nonregulated-negative pair,all,9,161,0.055900621118012424,7,121
+ENCODE-rE2G strict harmonized regulated-positive/nonregulated-negative pair,development,8,128,0.0625,6,97
+ENCODE-rE2G strict harmonized regulated-positive/nonregulated-negative pair,confirmation,1,33,0.030303030303030304,1,24

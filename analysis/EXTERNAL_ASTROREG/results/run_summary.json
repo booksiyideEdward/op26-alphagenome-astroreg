@@ -1,0 +1,14 @@
+{
+  "frozen_relation_count": 2307,
+  "frozen_enhancer_count": 745,
+  "output_relation_count": 2307,
+  "status_counts": {
+    "COMPLETED": 2307
+  },
+  "successful_requests_this_run": 743,
+  "failed_requests_this_run": 0,
+  "runtime_seconds_this_run": 228.39770078659058,
+  "ontology": "CL:0000127",
+  "scorer": "GeneMaskLFCScorer(requested_output=RNA_SEQ)",
+  "alphagenome_client_version": "0.7.0"
+}

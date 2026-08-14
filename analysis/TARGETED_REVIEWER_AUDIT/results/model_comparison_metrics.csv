@@ -1,0 +1,8 @@
+model,average_precision,roc_auc,log_loss,relations,positives,evaluation_unit
+context_probability,0.3964652054713857,0.8157998492090391,0.16875453627286716,2307,133,relation; grouped/cross-fitted as documented
+context_plus_ag_probability,0.5339965986646303,0.8362811352207565,0.14966595846465738,2307,133,relation; grouped/cross-fitted as documented
+author_egrf_oof_probability,0.5589044122172614,0.9002012851816754,0.1446095820284322,2307,133,relation; grouped/cross-fitted as documented
+dual_group_calibrated_egrf_probability,0.5502398354678912,0.8984218826735652,0.14316179248621602,2307,133,relation; grouped/cross-fitted as documented
+dual_group_egrf_plus_ag_probability,0.6185356307307388,0.9021553423577342,0.13163889402271708,2307,133,relation; grouped/cross-fitted as documented
+spline_expression_context_probability,0.5613119284828685,0.844560804034004,0.14869563229384067,2307,133,relation; grouped/cross-fitted as documented
+spline_expression_context_plus_ag_probability,0.6310383178215158,0.8671275705362762,0.13244062115286145,2307,133,relation; grouped/cross-fitted as documented

@@ -1,0 +1,198 @@
+{
+  "relations": 2307,
+  "positives": 133,
+  "enhancers": 745,
+  "genes": 1054,
+  "mixed_label_genes": 34,
+  "mixed_label_gene_relations": 155,
+  "mixed_label_gene_positives": 53,
+  "model_metrics": {
+    "context_probability": {
+      "average_precision": 0.3964652054713857,
+      "roc_auc": 0.8157998492090391,
+      "log_loss": 0.16875453627286716
+    },
+    "context_plus_ag_probability": {
+      "average_precision": 0.5339965986646303,
+      "roc_auc": 0.8362811352207565,
+      "log_loss": 0.14966595846465738
+    },
+    "author_egrf_oof_probability": {
+      "average_precision": 0.5589044122172614,
+      "roc_auc": 0.9002012851816754,
+      "log_loss": 0.1446095820284322
+    },
+    "dual_group_calibrated_egrf_probability": {
+      "average_precision": 0.5502398354678912,
+      "roc_auc": 0.8984218826735652,
+      "log_loss": 0.14316179248621602
+    },
+    "dual_group_egrf_plus_ag_probability": {
+      "average_precision": 0.6185356307307388,
+      "roc_auc": 0.9021553423577342,
+      "log_loss": 0.13163889402271708
+    },
+    "spline_expression_context_probability": {
+      "average_precision": 0.5613119284828685,
+      "roc_auc": 0.844560804034004,
+      "log_loss": 0.14869563229384067
+    },
+    "spline_expression_context_plus_ag_probability": {
+      "average_precision": 0.6310383178215158,
+      "roc_auc": 0.8671275705362762,
+      "log_loss": 0.13244062115286145
+    }
+  },
+  "increments": [
+    {
+      "comparison": "context_plus_ag_probability_minus_context_probability",
+      "metric": "ap_increment",
+      "estimate": 0.13753139319324464,
+      "ci_low": 0.07611633492624513,
+      "ci_high": 0.1968302663804385,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "context_plus_ag_probability_minus_context_probability",
+      "metric": "auc_increment",
+      "estimate": 0.020481286011717392,
+      "ci_low": -0.005741440130460123,
+      "ci_high": 0.04915964340067703,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "context_plus_ag_probability_minus_context_probability",
+      "metric": "log_loss_improvement",
+      "estimate": 0.019088577808209772,
+      "ci_low": 0.009124041016091655,
+      "ci_high": 0.030090500769136122,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "dual_group_egrf_plus_ag_probability_minus_dual_group_calibrated_egrf_probability",
+      "metric": "ap_increment",
+      "estimate": 0.06829579526284757,
+      "ci_low": 0.023271818346347485,
+      "ci_high": 0.11487525117448409,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "dual_group_egrf_plus_ag_probability_minus_dual_group_calibrated_egrf_probability",
+      "metric": "auc_increment",
+      "estimate": 0.0037334596841690493,
+      "ci_low": -0.0022201039756455762,
+      "ci_high": 0.009670364424402347,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "dual_group_egrf_plus_ag_probability_minus_dual_group_calibrated_egrf_probability",
+      "metric": "log_loss_improvement",
+      "estimate": 0.011522898463498937,
+      "ci_low": 0.0055042254927697475,
+      "ci_high": 0.018144062494947762,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "spline_expression_context_plus_ag_probability_minus_spline_expression_context_probability",
+      "metric": "ap_increment",
+      "estimate": 0.06972638933864728,
+      "ci_low": 0.026790837904880842,
+      "ci_high": 0.11527136903754619,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "spline_expression_context_plus_ag_probability_minus_spline_expression_context_probability",
+      "metric": "auc_increment",
+      "estimate": 0.022566766502272184,
+      "ci_low": 8.379807187642884e-05,
+      "ci_high": 0.04943885529567493,
+      "cluster": "enhancer",
+      "resamples": 5000
+    },
+    {
+      "comparison": "spline_expression_context_plus_ag_probability_minus_spline_expression_context_probability",
+      "metric": "log_loss_improvement",
+      "estimate": 0.016255011140979214,
+      "ci_low": 0.00617335961448189,
+      "ci_high": 0.02748875949843757,
+      "cluster": "enhancer",
+      "resamples": 5000
+    }
+  ],
+  "within_gene": [
+    {
+      "metric": "equal_gene_mean_contrast",
+      "estimate": 0.04707185121743813,
+      "ci_low": 0.021887733083732534,
+      "ci_high": 0.07498134004007993,
+      "permutation_p_one_sided": 9.99950002499875e-05,
+      "genes": 34,
+      "bootstrap_resamples": 5000,
+      "permutations": 20000
+    },
+    {
+      "metric": "equal_gene_conditional_auc",
+      "estimate": 0.7012605042016807,
+      "ci_low": 0.5710084033613445,
+      "ci_high": 0.8234593837535014,
+      "permutation_p_one_sided": 0.001399930003499825,
+      "genes": 34,
+      "bootstrap_resamples": 5000,
+      "permutations": 20000
+    },
+    {
+      "metric": "pair_weighted_conditional_auc",
+      "estimate": 0.7189189189189189,
+      "ci_low": 0.6145801957831326,
+      "ci_high": 0.8288842468805703,
+      "permutation_p_one_sided": 0.0007999600019999,
+      "genes": 34,
+      "bootstrap_resamples": 5000,
+      "permutations": 20000
+    }
+  ],
+  "expression_confounding": [
+    {
+      "metric": "relation_spearman_ag_vs_measured_expression",
+      "estimate": -0.018374018265234986,
+      "p_value_two_sided": 0.37771027285544834,
+      "n": 2307
+    },
+    {
+      "metric": "gene_equal_spearman_mean_ag_vs_measured_expression",
+      "estimate": -0.04398462040125035,
+      "p_value_two_sided": 0.15358768367813125,
+      "n": 1054
+    },
+    {
+      "metric": "relation_spearman_functional_label_vs_measured_expression",
+      "estimate": -0.07359696375951987,
+      "p_value_two_sided": 0.00040342047221521234,
+      "n": 2307
+    },
+    {
+      "metric": "expression_only_average_precision",
+      "estimate": 0.06063414449501991,
+      "p_value_two_sided": null,
+      "n": 2307
+    },
+    {
+      "metric": "expression_only_roc_auc",
+      "estimate": 0.40884928512633933,
+      "p_value_two_sided": null,
+      "n": 2307
+    }
+  ],
+  "author_egrf_fairness": {
+    "row_coverage": "2307/2307 exact Pair identifiers",
+    "author_prediction_method": "gene-by-enhancer held-out cross-validation",
+    "caveat": "author RF hyperparameters were tuned before its gene-by-enhancer held-out prediction step; our calibration/stacking also holds out both gene and enhancer folds and treats published cross-fitted scores as fixed inputs"
+  }
+}

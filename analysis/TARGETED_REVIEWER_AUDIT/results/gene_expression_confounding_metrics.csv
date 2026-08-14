@@ -1,0 +1,6 @@
+metric,estimate,p_value_two_sided,n
+relation_spearman_ag_vs_measured_expression,-0.018374018265234986,0.37771027285544834,2307
+gene_equal_spearman_mean_ag_vs_measured_expression,-0.04398462040125035,0.15358768367813125,1054
+relation_spearman_functional_label_vs_measured_expression,-0.07359696375951987,0.00040342047221521234,2307
+expression_only_average_precision,0.06063414449501991,,2307
+expression_only_roc_auc,0.40884928512633933,,2307

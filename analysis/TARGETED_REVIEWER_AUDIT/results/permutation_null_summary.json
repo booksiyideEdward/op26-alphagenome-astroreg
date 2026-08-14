@@ -1,0 +1,53 @@
+{
+  "design": {
+    "label": "structure-aware shuffled-AlphaGenome stacking null",
+    "cohort": "frozen 2,307-relation AstroREG cohort",
+    "permutation_unit": "whole AlphaGenome score vectors exchanged among enhancer blocks with identical relation multiplicity",
+    "rare_block_rule": "within-block cyclic rotation for the five multiplicities represented by one enhancer",
+    "fixed_components": "labels, EGrf probabilities, gene/enhancer folds, logistic calibration, metrics",
+    "seed": 20260813,
+    "permutations": 1000
+  },
+  "observed_models": {
+    "egrf_only_ap": 0.5502398354678912,
+    "egrf_plus_alphagenome_ap": 0.6185356307307388,
+    "egrf_only_auc": 0.8984218826735652,
+    "egrf_plus_alphagenome_auc": 0.9021553423577342,
+    "egrf_only_log_loss": 0.14316179248621602,
+    "egrf_plus_alphagenome_log_loss": 0.13163889402271708
+  },
+  "ap_increment": {
+    "observed": 0.06829579526284757,
+    "null_mean": -0.0048960442083641935,
+    "null_median": -0.002799267128265448,
+    "null_p2_5": -0.026791720276243096,
+    "null_p97_5": 0.005452798716605632,
+    "empirical_upper_tail_p": 0.000999000999000999,
+    "observed_percentile": 100.0,
+    "observed_ascending_rank": 1001,
+    "permutations": 1000
+  },
+  "auc_increment": {
+    "observed": 0.0037334596841690493,
+    "null_mean": -0.0008874151800844966,
+    "null_median": -0.00038389441865932517,
+    "null_p2_5": -0.006698179441243376,
+    "null_p97_5": 0.0013993989112616174,
+    "empirical_upper_tail_p": 0.002997002997002997,
+    "observed_percentile": 99.8,
+    "observed_ascending_rank": 999,
+    "permutations": 1000
+  },
+  "log_loss_improvement": {
+    "observed": 0.011522898463498937,
+    "null_mean": -0.0007046430747492716,
+    "null_median": -0.00033729561587934886,
+    "null_p2_5": -0.004428309409320653,
+    "null_p97_5": 0.0007444359795196016,
+    "empirical_upper_tail_p": 0.000999000999000999,
+    "observed_percentile": 100.0,
+    "observed_ascending_rank": 1001,
+    "permutations": 1000
+  },
+  "interpretation_boundary": "This diagnostic tests an arbitrary-second-feature explanation under the same stacking pipeline. It does not resolve the non-nested provenance of the fixed EGrf probabilities or prove absence of leakage."
+}

@@ -1,0 +1,14 @@
+metric,value
+pairs_explicit_tested_negative,6.0
+pairs_distance_within_2x,106.0
+pairs_reference_CAGE_within_4x,52.0
+pairs_reference_CAGE_within_2x,22.0
+pairs_near_request_geometry_50kb,76.0
+pairs_identical_request_interval,1.0
+pairs_combined_quality_filter,18.0
+median_linked_reference_CAGE,2661.922607421875
+median_wrong_reference_CAGE,425.4598083496094
+median_linked_to_wrong_reference_CAGE_ratio,3.826368210477191
+spearman_specificity_vs_log_reference_CAGE_ratio,0.20296468829077527
+spearman_specificity_vs_distance_ratio,-0.004503105590062113
+spearman_specificity_vs_request_shift,0.09072910527026569
