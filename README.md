@@ -49,4 +49,6 @@ The K562 and AstroREG protocol files were maintained inside the project before t
 
 AstroREG source tables are public but the source repository does not declare a repository-wide license. They are therefore retrieved directly from the authors rather than copied here. AlphaGenome client code is Apache-2.0; use of the AlphaGenome API remains subject to Google DeepMind's non-commercial terms. This repository contains relation-level OP26 numerical outputs, not model weights, raw prediction tracks, source repositories or credentials. See `data/README.md` and `docs/REPRODUCIBILITY_AND_RIGHTS.md`.
 
-No project license is asserted in this release candidate. License selection remains a human release action if the authors intend downstream reuse beyond GitHub's default copyright terms.
+## License
+
+Original analysis code and project-authored documentation in this repository are licensed under the [MIT License](LICENSE). The MIT License does not grant rights to third-party datasets, source repositories, models, services or other externally governed materials; those remain subject to their original terms. Manuscript text and figures are not covered by the MIT License and follow the license attached to the deposited preprint.
