@@ -22,3 +22,7 @@ Google DeepMind distributes the AlphaGenome client under Apache-2.0 and its exam
 ## Freeze language
 
 Analysis plans and freeze records were maintained within the project before the corresponding result inspection. They were not externally preregistered or independently timestamped. This public repository is a release archive only.
+
+## Project license
+
+Original analysis code and project-authored documentation are licensed under the repository's MIT License. That license does not override the terms governing third-party datasets, source repositories, AlphaGenome code, models or services. Manuscript text and figures follow the license attached to the deposited preprint.
